@@ -3,6 +3,90 @@ a
   text-decoration:none;
 }
 
+h1 {
+    text-align: center;
+}
+
+#cart {
+    display: flex;
+    justify-content: center;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.column {
+    width: 18%;
+    padding: 25px 0px;
+}
+
+#images img,#images1 img, #images2 img,#images3 img, #images4 img,#images5 img,#images6 img,#images7 img{
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 20px;
+}
+
+#songname p,#songname1 p,#songname2 p,#songname3 p,#songname4 p,#songname5 p,#songname6 p,#songname7 p{
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#artists p,#artists1 p,#artists2 p,#artists3 p,#artists4 p,#artists5 p,#artists6 p,#artists7 p{
+    font-size: 18px;
+    height: 100px;
+    margin: 20px;
+}
+#owners a,#owners1 a,#owners2 a,#owners3 a,#owners4 a,#owners5 a,#owners6 a,#owners7 a{
+    display: block;
+    font-size: 16px;
+    height: 100px;
+    margin: 20px;
+    text-align: right;
+}
+#links a,#links1 a,#links2 a,#links3 a,#links4 a,#links5 a,#links6 a,#links7 a {
+    display: block;
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#form {
+    width: 75%;
+    margin: 0 auto 20px auto;
+    font-size: 18px;
+}
+#search-button{
+    display: flex;
+    justify-content:center;
+}
+#btn{
+    display: flex;
+    justify-content:center;
+}
+
+.emojis {
+  display:flex;
+justify-content:center;
+font-size:150px;
+   
+}
+#name {
+text-align: center;
+display:flex;
+justify-content:center;
+
+}
+
+#title,#title1,#title2,#title3,#title4,#title5,#title6,#title7{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+  text-shadow: 3px 4px 2px gray;
+  border-radius:25px;
+}
 
 
 
