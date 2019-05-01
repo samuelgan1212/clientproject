@@ -88,5 +88,11 @@ justify-content:center;
   border-radius:25px;
 }
 
-
+#backimg{
+    width: 40%;
+}
+.backimgdiv{
+    display:flex;
+    justify-content:center;
+}
 
